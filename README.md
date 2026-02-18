@@ -6,27 +6,27 @@ SafeLink is a professional full-stack application designed to shorten URLs while
 
 ## 🚀 Key Features
 
-* [cite_start]**🔍 Virus Scanning:** Real-time threat detection via Google Cloud. [cite: 3, 4]
-* [cite_start]**🔗 Secure Shortening:** Generates unique 6-character IDs for long URLs. [cite: 4]
-* [cite_start]**🔥 Click Tracking:** Real-time counter to track how many times a link is used. [cite: 4]
-* [cite_start]**📱 QR Code Generator:** Auto-generates downloadable SVG QR codes for every safe link. [cite: 4]
-* [cite_start]**📊 History Dashboard:** A clean UI to view your past links and their performance. [cite: 4]
-* [cite_start]**🛡️ Rate Limiting:** Built-in protection to prevent spam and API abuse. [cite: 4]
+* **🔍 Virus Scanning:** Real-time threat detection via Google Cloud.
+* **🔗 Secure Shortening:** Generates unique 6-character IDs for long URLs.
+* **🔥 Click Tracking:** Real-time counter to track how many times a link is used.
+* **📱 QR Code Generator:** Auto-generates downloadable SVG QR codes for every safe link.
+* **📊 History Dashboard:** A clean UI to view your past links and their performance.
+* **🛡️ Rate Limiting:** Built-in protection to prevent spam and API abuse.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- [cite_start]**React (Vite)**: For a fast, responsive user interface. [cite: 4]
-- [cite_start]**QRCode.react**: SVG-based QR code generation. [cite: 4]
-- [cite_start]**CSS3**: Custom styling for a clean, modern look. [cite: 4]
+- **React (Vite)**: For a fast, responsive user interface.
+- **QRCode.react**: SVG-based QR code generation.
+- **CSS3**: Custom styling for a clean, modern look.
 
 ### Backend
-- [cite_start]**Node.js & Express**: High-performance API routing. [cite: 4]
-- [cite_start]**Firebase Admin SDK**: Secure, server-side database management. [cite: 4]
-- [cite_start]**Google Safe Browsing API**: Enterprise-grade URL security scanning. [cite: 4]
-- [cite_start]**Axios**: For communicating with external security services. [cite: 4]
+- **Node.js & Express**: High-performance API routing.
+- **Firebase Admin SDK**: Secure, server-side database management.
+- **Google Safe Browsing API**: Enterprise-grade URL security scanning.
+- **Axios**: For communicating with external security services.
 
 ---
 
@@ -40,8 +40,8 @@ SafeLink is a professional full-stack application designed to shorten URLs while
 ### 2. Backend Configuration
 1.  Navigate to the `backend` folder.
 2.  Create a `.env` file and add your Google API Key:
-    [cite_start]`GOOGLE_API_KEY=your_key_here` [cite: 2, 4]
-3.  [cite_start]Place your Firebase `serviceAccountKey.json` file in the `backend/` directory. [cite: 4]
+    `GOOGLE_API_KEY=your_key_here`
+3.  Place your Firebase `serviceAccountKey.json` file in the `backend/` directory.
 4.  Run:
     ```bash
     npm install
@@ -71,7 +71,7 @@ SafeLink is a professional full-stack application designed to shorten URLs while
 ---
 
 ## 🛡️ Security Protocol
-- [cite_start]**Lockdown Rules**: Firestore is configured to deny all public requests; only the authorized Node.js backend can write to the database. [cite: 4]
-- [cite_start]**Git Safety**: All sensitive credentials (`.env`, `serviceAccountKey.json`) are strictly excluded from version control via `.gitignore`. [cite: 1, 5]
+- **Lockdown Rules**: Firestore is configured to deny all public requests; only the authorized Node.js backend can write to the database.
+- **Git Safety**: All sensitive credentials (`.env`, `serviceAccountKey.json`) are strictly excluded from version control via `.gitignore`.
 
 ---
